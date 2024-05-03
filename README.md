@@ -2,6 +2,12 @@
 # Java CSV Processing
 
 Ce projet contient deux versions de traitement de fichiers CSV en Java : une version séquentielle et une version parallèle.
+# Groupe 
+
+Adrien Garcia
+Clement Deborde
+Bruno Megharba
+Arthur Estrems
 
 ## Prérequis
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
