@@ -86,22 +86,6 @@ La parallélisation peut grandement améliorer les performances d'un programme, 
 
 ---
 
-## Rapport de test complet
-
-Voici un rapport détaillé des temps d'exécution pour chaque cas testé sur les versions séquentielles et parallèles.
-
-### Cas 1: Comptage des lignes en erreur
-- **Séquentielle:** 51.2757 ms
-- **Parallèle:** 131.5331 ms
-
-### Cas 2: Lecture séquentielle et traitement parallèle
-- **Séquentielle:** 58.4665 ms
-- **Parallèle:** 80.6867 ms
-
-### Cas 3: Lecture séquentielle avec transformation
-- **Séquentielle:** 22.1599 ms
-- **Parallèle:** 88.8821 ms
-
 ## Résumé des observations
 1. La parallélisation n'a pas apporté de gain de performance pour les petites tâches de traitement.
 2. La parallélisation a été moins efficace que la séquentialisation même pour des tâches de traitement modérées.
